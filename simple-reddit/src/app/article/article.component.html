@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <h2><span class="label label-default">{{article.votes}}</span> {{article.title}} <small>{{article.link}}</small></h2>
+  </div>
+  <div class="row">
+    <div class="col-xs-offset-1">
+      <button class="btn btn-info" (click)="voteUp()">
+        <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+      </button>
+      <button class="btn btn-danger" (click)="voteDown()">
+        <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</div>
